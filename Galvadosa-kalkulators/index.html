@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kalkulators</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <p class="text">
+                Ievadi tilpumu (ml) 
+                <input id="mililiters" class="user-input-1" />
+                
+                ievadi alkohola grādus 
+                <input id="alco" class="user-input-2" />
+
+                <button class="button" onclick="addWater()">
+                    Aprēķināt
+                </button>
+                <span class="text">kopā:</span>
+                <div class="output">
+                    <span id="result"></span>
+                </div>
+                <span class="text">ml</span>
+            </p>
+            
+        </div>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
