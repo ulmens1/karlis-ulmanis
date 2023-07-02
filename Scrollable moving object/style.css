@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 500vh;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.square {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
